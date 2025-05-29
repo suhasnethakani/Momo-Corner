@@ -68,8 +68,4 @@ A clean and responsive multi-page website for **The Little Momo Shop**, a fictio
 
 **Suhas Nethakani**
 
----
 
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE) *(optional)*.
