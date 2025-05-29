@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Suhas Nethakani">
+        <meta name="discription" content="The official website for the little Momo Shop">
+        <title>A little Momo Shop</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #feedback
+            {
+                width:400px;height:200px;
+                display:flex;
+        
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(154, 161, 162);">
+        <header>
+            <h1>Welcome To The Little Momo Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="index.html#about">About <abbr title="Little Momo Shop">LMS</abbr></a></li>
+                    <li><a href="index.html#menu">Our Menu</a></li>
+                    <li><a href="hours.html">Store Hours</a></li>
+                    <li><a href="contact.html">To contact us</a></li>
+
+                </ul>
+            </nav>
+            <figure>
+                <img src="Momo.jpg" alt="Momo" height="267px" width="400px" title="Momos Ready to eat"></img>
+            </figure>
+            <figurecaption>
+                Little Momo Shop Momos
+            </figurecaption>        
+        </header>
+        <hr>
+        <main>
+                    <section>
+            <h2>Our Contact Form</h2>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send us a message</legend>
+                    <p>
+                        <lable for="name">Name:</lable>
+                        <input type="text" name="name" id="name" placeholder="Text your name" required>
+                    </p>
+                    <p>
+                        <lable for="email">Email:</lable>
+                        <input type="text" name="email" id="name" placeholder="enter your email" required>
+                    </p>
+                    <div id="feedback">
+                        <lable for="message">Your Message:</lable><br>
+                        <textarea type="text" name="message" id="message" placeholder="Enter what do you want to know" rows="10" cols="30" required></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset1</button> 
+            </form>
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Temptation Lane, Suite T<br>
+                Kansas City, MO 55555-5555
+                <br><br>
+                Phone: <a href="tel:+5555555555">555-555-5555</a>
+            </address>
+        </section>
+        </main>
+        <hr>
+        <footer>
+            <p>Copyright &copy; The Little Momo Shop</p>
+        </footer>
+    </body>
+</html>
